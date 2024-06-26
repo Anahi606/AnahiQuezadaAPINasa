@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AnahiQuezadaAPINasa.Models
 {
-    internal class AQApod
+    public class AQApod
     {
         public string date { get; set; }
         public string explanation { get; set; }
