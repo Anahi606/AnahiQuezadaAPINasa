@@ -14,7 +14,7 @@ namespace AnahiQuezadaAPINasa.Services
         {
             AQApod dto = null;
             HttpResponseMessage response;
-            string requestUrl = $"https://api.nasa.gov/planetary/apod?date={dt.ToString("yyyy-MMdd")}&api_key=ISt137eqmc4iyazl7ie9GRQDdaDQY5tWGgvDLYO4";
+            string requestUrl = $"https://api.nasa.gov/planetary/apod?date={dt.ToString("yyyy-MM-dd")}&api_key=ISt137eqmc4iyazl7ie9GRQDdaDQY5tWGgvDLYO4";
             try
             {
                 HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, requestUrl);
